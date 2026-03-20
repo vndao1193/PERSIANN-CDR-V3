@@ -27,25 +27,12 @@
 ## Access the Data
 
 - [Primary Data Portal](https://chrsdata.eng.uci.edu/)
-- [Direct Download (THREDDS)](https://thredds.chrsdata.eng.uci.edu/)
+- [HTTP Download ](https://persiann.eng.uci.edu/CHRSdata/PUnetCDR/)
 
 ---
 
 ## Quick Start
 
-```python
-# Example: Download and visualize PERSIANN-CDR V3 using Python (xarray, matplotlib)
-import xarray as xr
-import matplotlib.pyplot as plt
-
-ds = xr.open_dataset("https://thredds.chrsdata.eng.uci.edu/thredds/dodsC/PERSIANN-CDR-V3/sample.nc")
-data = ds['precipitation'].isel(time=0)
-data.plot()
-plt.title('Sample Precipitation - PERSIANN-CDR V3')
-plt.show()
-```
-
----
 
 ## Documentation
 
@@ -59,7 +46,7 @@ plt.show()
 
 If you use PERSIANN-CDR V3 in your research, please cite:
 
-> Bolboli Zadeh, M., Nguyen, P., Hsu, K. L., AghaKouchak, A., Thanh Ung, T., & Sorooshian, S. (2026). A Global High-Resolution Precipitation Climate Record: PERSIANN-CCS-CDR Version 2.0. Scientific Data.
+> Nguyen, P., Dao, V., Ung, T., Jimenez Arellano, C., Hsu, K., Sorooshian, S., AghaKouchak, A., Huffman, G. J., & Ralph, F. M. PERSIANN-Unet: The first global satellite precipitation algorithm utilizing deep learning with infrared data. Accepted for publication in the Journal of Hydrometeorology.
 
 (The full V3 citation will be available upon publication.)
 
@@ -67,7 +54,7 @@ If you use PERSIANN-CDR V3 in your research, please cite:
 
 ## Contact & Support
 
-For questions, dataset requests, or to report issues, please [open an issue](https://github.com/[your-org]/persiann-cdr-v3/issues) or email chrs@uci.edu.
+For questions, dataset requests, or to report issues, please [open an issue](https://github.com/[your-org]/persiann-cdr-v3/issues) or email vudao1193@gmail.com.
 
 ---
 
