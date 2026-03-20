@@ -1,0 +1,38 @@
+PERSIANN-Unet-CDR (PUnet-CDR) rainfall product is available from 1980 through current
+and is a high-resolution (.04deg), with global coverage from 60N to 60S.
+
+The final PUnet rainfall data are accumulated (in mm) for 
+PUnetCDR3h 
+PUnetCDR6h 
+PUnetCDR1d 
+PUnetCDR1m
+PUnetCDR1y
+
+provided in separate directories under:
+    http://persiann.eng.uci.edu/CHRSdata/PUnetCDR/
+
+The files are named for the accumulation period and the
+start time of the period.
+
+punetcdr*YYMMDDhh.bin.gz
+
+XX -- will be 3h, 6h, 1d, 1m, 1y
+YYMMDD -- year month day
+hh -- will be the starting hour of the accumulation period. For example:
+    punetcdr3h25050606.bin.gz
+represents the mm accumulation over the 3 hour period on 2025 May 5th
+from  06:00Z up through 08:59Z.
+
+daily (1d) data do not have hh in the name and go from 00:00Z to 23:59Z of the given date.
+
+All data are in flat binary files 4-byte float ('float32' in MATLAB) values.
+
+Area covered in .04 deg from 60N to 60S and 0 to 360 for 3000 rows x 9000 cols
+
+Data are stored in the file in row-major orientation with the first 9000
+values the N-most row centered at 59.98N  with longitude centers from .02 to 359.98
+and the last row (S-most row) centered at 59.98S 
+
+---
+May 06, 2025
+Phu Nguyen (ndphu@uci.edu)
