@@ -2,7 +2,10 @@
 
 ![PERSIANN-CDR Framework](Figures/Framework.png) <!-- Update or remove logo path as needed -->
 
-**PERSIANN-CDR V3** is the latest version of the global Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks–Climate Data Record. It provides long-term, high-resolution satellite-based precipitation estimates, enabling climate research, hydrological modeling, and applications in weather and disaster monitoring.
+## Abstract
+Reliable long-term precipitation records are essential for hydrologic forecasting, climate analysis, and water resource management. However, existing satellite-based products often trade off between spatial resolution, latency, and temporal coverage. High-resolution datasets (e.g., IMERG, CMORPH, and PERSIANN) are limited to recent decades, while climate-scale records (e.g., GPCP, PERSIANN-CDR, and CMAP) provide long-term coverage at coarse resolution, limiting their ability to capture extremes and sub-daily variability. 
+To address this gap, we introduce PERSIANN-Climate Data Record V3 (PERSIANN-CDR V3), a global deep learning–based framework that reconstructs high-resolution precipitation from 1980 to 2025. Built on a U-Net architecture, the model integrates geostationary infrared satellite data, monthly climatology, and MERRA-2 to produce 3-hourly estimates at 0.04° resolution. It integrates GridSat-B1 (1980–2000; 3-hourly) and CPC-4km (2000–present; 30-minute), with MERRA-2 filling data gaps to ensure a continuous record. Inputs are standardized to a common grid, and a monthly bias correction using GPCP (2.5°) preserves temporal consistency.
+Unlike regionally trained approaches, PERSIANN-CDR V3 employs a globally unified model, reducing boundary artifacts and enabling seamless integration of historical and near-real-time precipitation, supporting both research and operational applications.
 
 ---
 
@@ -20,7 +23,7 @@
 
 - Improved calibration and bias correction for enhanced climate analysis
 - Compatible with hydrological and climate models
-- Open-source tools and example scripts available
+- Consistent between different eras of IR inputs
 
 ---
 
