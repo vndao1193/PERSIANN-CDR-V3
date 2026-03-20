@@ -15,7 +15,7 @@ Unlike regionally trained approaches, PERSIANN-CDR V3 employs a globally unified
 
 - **Coverage:** Global (60°N–60°S)
 - **Spatial Resolution:** 0.04° (~4 km)
-- **Temporal Resolution:** 3-hourly, daily, monthly
+- **Temporal Resolution:** 3-hourly, daily, monthly, yearly
 - **Data Period:** 1980–Present
 - **Format:** bin.gz, tiff, netcdf
 
