@@ -1,6 +1,6 @@
 # PERSIANN-CDR V3
 
-![PERSIANN-CDR Logo](https://chrsdata.eng.uci.edu/img/logo.png) <!-- Update or remove logo path as needed -->
+![PERSIANN-CDR Framework]() <!-- Update or remove logo path as needed -->
 
 **PERSIANN-CDR V3** is the latest version of the global Precipitation Estimation from Remotely Sensed Information using Artificial Neural Networks–Climate Data Record. It provides long-term, high-resolution satellite-based precipitation estimates, enabling climate research, hydrological modeling, and applications in weather and disaster monitoring.
 
