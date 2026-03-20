@@ -11,8 +11,8 @@
 - **Coverage:** Global (60°N–60°S)
 - **Spatial Resolution:** 0.04° (~4 km)
 - **Temporal Resolution:** 3-hourly, daily, monthly
-- **Data Period:** [Start Year]–Present
-- **Format:** NetCDF, GeoTIFF
+- **Data Period:** 1980–Present
+- **Format:** bin.gz, tiff, netcdf
 
 ---
 
